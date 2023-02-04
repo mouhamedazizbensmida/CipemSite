@@ -4436,7 +4436,7 @@ tbody.collapse.show {
     background-size: 100% 100%
 }
 
-@media (max-width:575.98px) {
+@media (max-width:5005px) {
 
     .navbar-expand-sm>.container,
     .navbar-expand-sm>.container-fluid {
@@ -4445,7 +4445,7 @@ tbody.collapse.show {
     }
 }
 
-@media (min-width:576px) {
+@media (min-width:5005px) {
     .navbar-expand-sm {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;

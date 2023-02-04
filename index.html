@@ -40,6 +40,30 @@
   <link href="../netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
   <style>
+      @media screen and (max-width: 1316px) {
+        .carousel-inner .carousel-item{margin-top: -2cm;}
+        .carousel-caption {width: 30cm;}
+        .carousel-caption h5{font-size: 20px;}
+        .carousel-caption h2{font-size: 20px;}
+      }
+      @media screen and (max-width: 865px) {
+        .carousel-inner .carousel-item{margin-top: -3cm;}
+        .carousel-caption {width: 26cm;}
+        .carousel-caption h5{font-size: 17px;}
+        .carousel-caption h2{font-size: 20px;}
+      }
+      @media screen and (max-width: 623px) {
+        .carousel-inner .carousel-item{margin-top: -5cm;} 
+        .carousel-caption {width: 24cm; }
+        .carousel-caption h5{font-size: 14px;}
+        .carousel-caption h2{font-size: 18px;}
+      }
+      @media screen and (max-width: 485px) {
+        .carousel-inner .carousel-item{margin-top: -5cm;}
+        .carousel-caption {width: 18cm; }
+        .carousel-caption h5{font-size: 8px;margin-bottom: 20%;}
+        .carousel-caption h2{font-size: 12px; width: 100px;}
+      }
     #cipemApp {
       height: 500px;
     }
@@ -153,14 +177,13 @@ margin-right: 20px;"></a>
       <div class="carousel-item active">
         <img src="img/img0.jpg" class="d-block w-100" alt="...">
 
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-block">
 
-          <center style="padding-bottom: 50px;">
-            <h2 style="font-size: 30px;">ENGINEERING</h2>
+            <h2 >ENGINEERING</h2>
 
-          </center>
-          <div style="padding-right: 500px; padding-bottom: 100px;">
-            <h5 style="background-color: rgba(221, 205, 205, 0.602); font-size: 20px; animation-delay: 1.5s;"
+    
+          <div id="carou1" style="padding-right: 500px; padding-bottom: 100px;">
+            <h5 style="background-color: rgba(221, 205, 205, 0.602); animation-delay: 1.5s;"
               class="animated fadeIn">
               CIPEM's activities <br>are focused on Industrial fields , <br>Chemical and petroleum.<br>
               CIPEM offers many different services for these field of activity.
@@ -173,15 +196,15 @@ margin-right: 20px;"></a>
       </div>
       <div class="carousel-item">
         <img src="img/mainEng.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-block">
 
-          <center style="padding-bottom: 10px;">
-            <h2 style="font-size: 40px;">MAINTENANCE ENGINEERING</h2>
+         
+            <h2 >MAINTENANCE ENGINEERING</h2>
 
-          </center>
-          <div style="padding-right: 500px; padding-bottom: 0px;">
 
-            <h5 style="background-color: rgba(221, 205, 205, 0.602); font-size: 20px; animation-delay: 1.5s;"
+          <div id="carou2" style="padding-right: 500px; padding-bottom: 4%;text-align: left;">
+
+            <h5 style="background-color: rgba(221, 205, 205, 0.602);  animation-delay: 1.5s;"
               class="animated fadeIn">
               Our maintenance engineering services allow CIPEM to meet
                the specific needs of its customers and help us develop and 
@@ -198,14 +221,13 @@ margin-right: 20px;"></a>
       </div>
       <div class=" carousel-item">
         <img src="img/img2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <center style="padding-bottom: 80px;">
-            <h2 style="font-size: 50px;">EXPERTISE</h2>
+        <div class="carousel-caption d-none d-block">
+          
+            <h2 >EXPERTISE</h2>
 
-          </center>
-          <div style="padding-right: 500px; padding-bottom: 50px;">
+          <div style="padding-right: 500px;">
 
-            <h5 style="background-color: rgba(221, 205, 205, 0.602); font-size: 20px;animation-delay: 1.5s;"
+            <h5 id="carou3" style="background-color: rgba(221, 205, 205, 0.602); animation-delay: 1.5s;"
               class="animated fadeIn">
               The objective of the expertise activity is focused on the definition
                of a visibility of the state of the installation making it possible
@@ -220,13 +242,12 @@ margin-right: 20px;"></a>
       </div>
       <div class="carousel-item">
         <img src="img/eecover.jpg" class="d-block w-100" alt="..." id="carsouel_ECO">
-        <div class="carousel-caption d-none d-md-block">
-          <center style="padding-bottom: 20px;">
-            <h2 style="font-size: 30px;">ENERGY SAVING & ENERGY EFFICIENCY</h2>
+        <div class="carousel-caption d-none d-block">
+   
+            <h2 >ENERGY SAVING & ENERGY EFFICIENCY</h2>
 
-          </center>
-          <div style="padding-right: 500px; padding-bottom: 50px;">
-            <h5 style="background-color: rgba(221, 205, 205, 0.602); font-size: 20px; animation-delay: 1.5s;"
+          <div id="carou4" style="padding-right: 500px;">
+            <h5 style="background-color: rgba(221, 205, 205, 0.602); animation-delay: 1.5s;"
               class="animated fadeIn">
               We work on issues of production,
                transmission and distribution of electricity in tertiary and industrial environments.
@@ -238,16 +259,16 @@ margin-right: 20px;"></a>
       </div>
       <div class="carousel-item">
         <img src="img/consCover.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-block">
 
-          <center style="padding-bottom: 50px;">
-            <h2 style="font-size: 45px;">CONSULTING</h2>
+      
+            <h2 >CONSULTING</h2>
 
-          </center>
+  
 
 
-          <div style="padding-right: 500px; padding-bottom: 50px;">
-            <h5 style="background-color: rgba(221, 205, 205, 0.602); font-size: 20px; animation-delay: 1.5s;"
+          <div id="carou5" style="padding-right: 500px; ">
+            <h5 style="background-color: rgba(221, 205, 205, 0.602);  animation-delay: 1.5s;"
               class="animated fadeIn">
               Whether the project is still at the level of intention, idea,
                design or operational, we can always offer our know-how and our relational
@@ -258,16 +279,13 @@ margin-right: 20px;"></a>
       </div>
       <div class="carousel-item">
         <img src="img/Renewabale_Energy.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-block">
 
-          <center style="padding-bottom: 50px;">
-            <h2 style="font-size: 35px;">ENERGY PHOTOVOLTAIC</h2>
-
-          </center>
+            <h2 >ENERGY PHOTOVOLTAIC</h2>
 
 
-          <div style="padding-right: 500px; padding-bottom: 50px;">
-            <h5 style="background-color: rgba(221, 205, 205, 0.602); font-size: 20px; animation-delay: 1.5s;"
+          <div style="padding-right: 500px; ">
+            <h5 id="carou6" style="background-color: rgba(221, 205, 205, 0.602); animation-delay: 1.5s;"
               class="animated fadeIn">
               Photovoltaic solar energy (or photovoltaic energy or EPV) is electrical 
               energy produced from solar radiation using sensors or photovoltaic solar power plants.</h5>
@@ -303,7 +321,7 @@ margin-right: 20px;"></a>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="aboutus-banner animated fadeIn" style="animation-delay: 0.5s; animation-duration: 2s;">
-            <img src="img/cipemapp.bmp" id="cipemApp" alt="" style="box-shadow: 0px 20px 30px black; ">
+            <img src="img/cipemapp.bmp" id="cipemApp" alt="" style="box-shadow: 0px 5px 20px black; ">
           </div>
         </div>
         <div class="col-md-5 col-sm-6 col-xs-12 animated fadeIn" style="animation-delay: 0.5s; animation-duration: 2s;">
@@ -482,87 +500,122 @@ margin-right: 20px;"></a>
   </div>
 
  
+  
+
+  <!-- footer start -->
   <footer class="page-footer font-small blue pt-4"
-    style="background-color: rgb(11, 20, 144); box-shadow:0 0 1px 20px #0b1490">
+    style="background-color: rgb(11, 20, 144); box-shadow:0 0 1px 20px #0b1490;margin-top: 6%;;bottom: 0px;">
+    <!--Footer Widget Area Start-->
+    <div class="footer-widget-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-4">
+            <div class="single-footer-widget" style="width: 100%;">
+              <div class="footer-logo text-center" style="float:left;width:35%;padding-right: 16px;">
+                <img src="img/cipem_logo.jpg" width="100" height="60" alt="centre de formation Tunisie Logo" />
+              </div>
+              <br>
+              <div style="float:none; padding: 4px;">
+                <p class="text-justify" style="color: white !important;">
+                  CIPEM is a multidisciplinary engineering, expertise, consulting and training company
+                  CIPEM's activities are focused on the Industrial, Chemical and Petroleum fields.
+                  CIPEM offers many different services for these field of activity.
+                </p>
+              </div>
 
-    <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left">
 
-      <!-- Grid row -->
-      <div class="row">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4">
+            <div class="single-footer-widget">
+              <span class="font-new" style="color: #ffb901;font-size: 110%;font-weight: bolder;">Nous Contacter</span>
+              <p style="color: white;"><i class="fa fa-phone" style="margin-right: 18px;"></i>(+216) 98 645 545 \ 71 254
+                978</p>
+              <p style="color: white;"><i class="fa fa-envelope" style="margin-right: 18px;"></i>Cipem@Cipem.com.tn
+              </p>
+              <p style="color: white;"><i class="fa fa-map-marker" style="margin-right: 18px;"></i>24 Av. Cyrus Legrand,
+                Tunis</p>
+              <div style="display: flex;justify-content: space-around;width: 55%; ">
+                <a href="https://www.facebook.com/cipem.com.tn" target="_blank" style="color:#fff"
+                  class="ti-facebook"></a>
 
-        <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
+                <a href="https://www.linkedin.com/company/cipem---chemical-industrial-and-petroleum-ingineering-and-management/about/"
+                  style="color:#fff" class="ti-linkedin" target="_blank"></a>
 
-          <!-- Content -->
-          <h3 class="text-uppercase ti-home" style="color:#fff">
+                <a href="https://twitter.com/cipem2013" target="_blank" style="color:#fff" class="ti-twitter"></a>
+              </div>
+            </div>
 
-          </h3>
-          <a style="color:#fff"> CYRYS LE GRAND 24 street <br> Cyrus Le grand le passage 1001</a>
+            <div class="social-icons">
+              <a target="target" href="https://www.facebook.com/formation.teg"><i class="bi bi-facebook"></i></a>
+              <a><i class="zmdi zmdi-google-plus"></i></a>
+              <a target="target" href="https://www.linkedin.com/in/training-and-engineering-group-teg-841994170/"><i
+                  class="zmdi zmdi-linkedin"></i></a>
+              <a target="target" href="https://www.instagram.com/tegformation/?hl=fr"><i
+                  class="zmdi zmdi-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3 hidden-sm">
+            <div class="single-footer-widget">
+              <span class="font-new"
+                style="color: #ffb901;font-size: 15px;font-size: 110%;font-weight: bolder;">Navigation</span>
+              <ul class="footer-list">
 
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Presentation </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="ing.html">Engineering</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="Energy_photovoltaic.html">Energy photovoltaic</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="eenergitique.html" id="ee2">Energysaving/Energy efficiencye</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="expertise.html">Expertise</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="maintenance.html">Maintenance.Eng</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="consulting.html">Consulting</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4">
+            <div class="single-footer-widget">
+              <span class="font-new" style="color: #ffb901;font-size: 110%;font-weight: bolder;">Nous Situer</span>
+              <div class="text-centre">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12777.688319159468!2d10.182769!3d36.8084045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x224d256c8f24d6c5!2sCIPEM!5e0!3m2!1sfr!2stn!4v1674509609115!5m2!1sfr!2stn"
+                  width="100%" height="300cm" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none pb-3">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-
-          <!-- Links -->
-          <h3 class="text-uppercase ti-tablet" style="color: #fff;"></h3>
-
-          <ul class="list-unstyled">
-            <li>
-              <a style="color:#fff">(+216)98 645 545</a>
-            </li>
-            <li>
-              <a style="color:#fff">(+216)71 254 978</a>
-            </li>
-
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-
-          <!-- Links -->
-          <h3 class="text-uppercase ti-email" style="color: #fff;"></h3>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="https://www.facebook.com/cipem.com.tn" target="_blank" style="color:#fff"
-                class="ti-facebook"></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/cipem---chemical-industrial-and-petroleum-ingineering-and-management/about/"
-                style="color:#fff" class="ti-linkedin" target="_blank"></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/cipem2013" target="_blank" style="color:#fff" class="ti-twitter"></a>
-            </li>
-
-
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
       </div>
-      <!-- Grid row -->
-
     </div>
-    <!-- Footer Links -->
-
+    <!--End of Footer Widget Area-->
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3" style="color: #fff;">© 2020 Copyright:
       <a href="termes2020.html">cipem.com.tn</a>
     </div>
 
     <!-- Copyright -->
-
+    </div>
+    <!--End of Bg White-->
+    </div>
   </footer>
+  <!-- Footer -->
 
   <script src="js/vendor/modernizr-3.5.0.min.js"></script>
   <script src="js/vendor/jquery-1.12.4.min.js"></script>

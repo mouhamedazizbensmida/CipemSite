@@ -4510,7 +4510,7 @@ tbody.collapse.show {
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:1300px) {
     .navbar-expand-md {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -4996,7 +4996,7 @@ tbody.collapse.show {
     margin-bottom: 15px
 }
 
-@media (min-width:576px) {
+@media (min-width:1012px) {
     .card-deck {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
